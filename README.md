@@ -1,18 +1,42 @@
-# React + Vite
+Fenrir Security Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based frontend implementation of a cybersecurity platform UI as part of the Fenrir Frontend Design Challenge.The goal of this assessment is to accurately recreate the provided UI/UX design reference while implementing responsive layouts, interactivity, and theme support.
+The application includes multiple screens, navigation between them, and responsive layouts for different screen sizes.
 
-Currently, two official plugins are available:
+Live Demo :
+Live Demo : https://fenrir-pvt.vercel.app/
+GitHub Link : https://github.com/rafivalih/FenrirPvt
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack :
+=> React ( functional components + hooks )
+=> Vite ( Fast build tool and development server )
+=> TailwindCSS ( Styling )
+=> React Router ( Navigation )
 
-## React Compiler
+Features : 
+The application includes three main screens based on the design reference. They are 
+1) Login Page 
+2) Dashbaord
+3) Scan Detail
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* Login Page :
+A split layout page with product information on the left and a sign-up form on the right. The form includes fields for first name, last name, email, and password, along with social login buttons.
+* Dashboard :
+The dashboard displays scan information in a structured layout. It includes a sidebar for navigation, statistics for vulnerabilities, and a table showing scan details.
+* Scan Detail
+The scan detail screen uses mock data to simulate an active security scan, including progress steps, console logs, and vulnerability findings.
+=> This is fully Resposinve so hyou an access from any device
 
-Note: This will impact Vite dev & build performances.
+Running the Project Locally :
+Make clone : git clone https://github.com/rafivalih/FenrirPvt.git
+run this : cd FenrirPvt
+then Run : npm install ( it will install dependencies)
+then run the server : npm run dev
+open local host any browser using : http://localhost:5173
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Author : 
+Rafivali Shaik
+Github : https://github.com/rafivalih
+Linkedin : https://www.linkedin.com/in/rafivalih-shaik/
+
